@@ -26,7 +26,7 @@
 			<fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/fanart2.jpg</screenshot>
 			<screenshot>resources/media/screen2.jpg</screenshot>
-			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/screen1.jpg</screenshot>
 		</assets>
   </extension>
 </addon>
