@@ -34,8 +34,8 @@ def get_playable_podcast(soup):
 #            desc = content.find('description')
 #            desc = desc.get_text()
 
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
 
         except AttributeError:
             continue
@@ -44,7 +44,7 @@ def get_playable_podcast(soup):
                 'url': link,
                 'title': title,
 #                'desc': desc,
-                'thumbnail': thumbnail
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/icon.png"
         }
         
         subjects.append(item) 
@@ -89,8 +89,8 @@ def get_playable_podcast1(soup):
 #            desc = content.find('itunes:subtitle')
 #            desc = desc.get_text()
 
-            thumbnail = content.find('itunes:image')
-            thumbnail = thumbnail.get('href')
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
 
         except AttributeError:
             continue
@@ -99,11 +99,10 @@ def get_playable_podcast1(soup):
                 'url': link,
                 'title': title,
 #                'desc': desc,
-                'thumbnail': thumbnail,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/icon.png"
         }
         
         subjects.append(item) 
-    
     return subjects
 
 

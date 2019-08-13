@@ -14,11 +14,11 @@ def main_menu():
         {
             'label': plugin.get_string(30000), 
             'path': plugin.url_for('all_episodes'),
-            'thumbnail': "/resources/media/icon.png"},
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/icon.png"},
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('all_episodes1'),
-            'thumbnail': "/resources/media/icon.png"},
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/icon.png"},
     ]
 
     return items
